@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "960405847931",
+    "firebase_url": "https://startcheck-505ac.firebaseio.com",
+    "project_id": "startcheck-505ac",
+    "storage_bucket": "startcheck-505ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960405847931:android:df82052cc5c77aa5",
+        "android_client_info": {
+          "package_name": "com.example.bhai.startcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960405847931-6sgcjk09a2dojb7gjdej3r25fev4mjsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhai.startcheck",
+            "certificate_hash": "fecb42afb3599182261215798de6d0d74364df73"
+          }
+        },
+        {
+          "client_id": "960405847931-efd9m1nof4a7k7ifbhqic3h6jrbcr6u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9yVpmqhOPSsu8gjDTSbohOmECOiEtK_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960405847931-efd9m1nof4a7k7ifbhqic3h6jrbcr6u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

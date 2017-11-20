@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Child Welfare"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/catchild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/childWelfare"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ddscreen1"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animal Welfare"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/catanimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animalwelfare"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ddscreen1"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Women Empowerment"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/catwomen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/womenEmpowerment"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ddscreen1"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Environment"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/catenvironment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/environment"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ddscreen1"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handicapped"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/cathand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/handicapped"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ddscreen1"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/catother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others"
+        android:clickable="true"
+        android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

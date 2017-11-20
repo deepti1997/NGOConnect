@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_reg"
+            android:icon="@drawable/reg_nav"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_join"
+            android:icon="@drawable/join_nav"
+            android:title="Join" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/plan_nav"
+            android:title="Plan" />
+
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/lov_nav"
+            android:title="Find" />
+
+        <item
+            android:id="@+id/nav_upcoming"
+            android:title="Upcoming Activities"
+            android:icon="@android:drawable/ic_menu_myplaces"/>
+    </group>
+
+
+
+</menu>

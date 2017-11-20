@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NGOConnect</string>
+
+
+    <string name="homeText">"NGO Connect. As the name suggests, aims at bulding rich social connections of people willing to serve for the betterment and welfare of our Nation. NGO Connect is a platform developed bt the collective efforts os students from the Cummins College Of Engineering for Women. Our main objective is to provide a rich platform showcasing detailed information of NGOs all over Pune, help out user to easily find NGOs near him of whatever category he likes and to ease the choice making procedure for him. We cover all major areas like Child Welfare, Women Empowerment, Environment, Social Issues, etc.Not only can one join an NGO, but can also start his own activity, and can also view the activities that are happening around the city.</string>
+    <string name="title_activity_after_login">AfterLogin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_locate_ngo">Map</string>
+    <string name="title_activity_ngonear_you">Map</string>
+
+    <string name="animalwelfare">Here, find the list of animal welfare groups concerned with the health, safety and psychological wellness of animals. With the limited number of NGOs in the city, and the limited knowledge that people have, it comes down to the citizens like you who want to lend a helping hand. </string>
+    <string name="womenEmpowerment">There is no tool for development, that is more effective than the empowerment of women. Because she is the full circle. Within her is the power to create, to nurture and to transform. Empowering her means progress for all. It means empowering generations. This is a list NGOs which believe in this idea, and work towards achieving the best for women who need our help. </string>
+    <string name="childWelfare">List of NGOs working towards the upliftment of the youth of our nation,provide help to the underpriviledged and poor kids, help with their education, and create a better future for them.</string>
+    <string name="environment">This enumeration of environmental NGOs is compiled to offer an insight into the conservational efforts of environmentalists. These organizations try their best to make our world a better place on a daily basis. Majorly, they do this by advocating for, promoting and enhancing environmental conservation.</string>
+    <string name="handicapped">These NGOs are involved with the physically-challenged. Many NGOs provide counselling, early intervention, adaptive training, living skills training, vocational training, economic rehabilitation, social integration, aids and appliances.</string>
+    <string name="others">List of NGOs which don\'t strictly fit into the above mentioned categories. A myriad of NGOs across Pune working on subjects ranging from educatating people about cleanliness to NGOs working against Corruption.</string>
+</resources>

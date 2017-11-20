@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <EditText
+            android:id="@+id/ngoname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NGO Name"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Category:"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="15dp"/>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/women"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women Empowerment"/>
+            <RadioButton
+                android:id="@+id/child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Welfare"/>
+            <RadioButton
+                android:id="@+id/nature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nature"/>
+            <RadioButton
+                android:id="@+id/animal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Animal Welfare"/>
+            <RadioButton
+                android:id="@+id/handicapped"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handicapped"/>
+            <RadioButton
+                android:id="@+id/othertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textCapSentences|textMultiLine|textPersonName"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Co-ordinator"
+            android:inputType="textPersonName|textCapWords"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/upld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap here to upload your logo!"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/colorAccent"
+            android:visibility="visible"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/lcn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap here to set your location!"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
